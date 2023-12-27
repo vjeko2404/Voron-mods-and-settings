@@ -1,1 +1,11 @@
-
+List of all the hardware changes:
+  - Voron TAP with chaotic labs
+  - FLY SHT36 head tool
+  - Fysetc spider V2.2 with 4x TMC 2209 and 2x TMC 5160 (24V and 48V)
+  - Fysetc hotkey mod
+  - Status led stripe
+  - Daylight XXL
+  - Waveshare 4.3" display
+  - Side button to power on and off 24V and 48V PSU
+  - Bed fans (Andrew Ellis mod)
+  - ...
