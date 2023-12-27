@@ -9,12 +9,12 @@ logging.basicConfig(filename='/home/pi/gpio_toggle.log', level=logging.INFO)
 button = Button(12, hold_time=3)  # 3-second hold time
 relay = OutputDevice(16, initial_value=False)
 
-moonraker_host = "http://192.168.0.192"  # Moonraker host
+moonraker_host = "http://***.***.***.***"  # Moonraker host (type in your IP instead of ***.***.***.***)
 moonraker_port = "7125"  # Moonraker port
-power_device_name = "Printer 24V"  # Power device name in Moonraker
+power_device_name = "Printer_24V"  # Power device name in Moonraker
 
 def update_moonraker_power_state(state):
-    url = f"http://192.168.0.192:7125/machine/device_power/device?device=Printer_24V&action={'on' if state else 'off'}"
+    url = f"http://***.***.***.***:7125/machine/device_power/device?device=Printer_24V&action={'on' if state else 'off'}" # (type in your IP instead of ***.***.***.***)
     data = {"action": "on" if state else "off"}
     try:
         response = requests.post(url)
