@@ -5,7 +5,11 @@ List of all the hardware changes:
   - Fysetc hotkey mod
   - Status led stripe
   - Daylight XXL
-  - Waveshare 4.3" display
+  - Waveshare 4.3" display with klipperscreen
   - Side button to power on and off 24V and 48V PSU
   - Bed fans (Andrew Ellis mod)
+  - Voron KAMP macro
+  - Autotune TMC macro
+  - Nozzle scrub macro
+  - Voron KAMP macro
   - ...
