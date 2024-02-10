@@ -1,6 +1,6 @@
 List of all the hardware changes:
-  - Voron TAP with chaotic labs
-  - FLY SHT36 head tool
+  - Cartographer3D probe
+  - Mellow Fly SB2040 V2 pro
   - Fysetc spider V2.2 with 4x TMC 2209 and 2x TMC 5160 (24V and 48V)
   - Fysetc hotkey mod
   - Status led stripe
@@ -9,7 +9,6 @@ List of all the hardware changes:
   - Side button to power on and off 24V and 48V PSU
   - Bed fans (Andrew Ellis mod)
   - Voron KAMP macro
-  - Autotune TMC macro
   - Nozzle scrub macro
   - Voron KAMP macro
   - ...
