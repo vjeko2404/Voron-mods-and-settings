@@ -1,6 +1,9 @@
 List of all the hardware changes:
   - Cartographer3D probe
   - Mellow Fly SB2040 V2 pro
+  - Galileo 2 extruder
+  - PT1000
+  - Rapido UHF
   - Fysetc spider V2.2 with 4x TMC 2209 and 2x TMC 5160 (24V and 48V)
   - Fysetc hotkey mod
   - Status led stripe
